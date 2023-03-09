@@ -103,19 +103,19 @@
             <div class="pt-5 pb-5" id="programWrapper">
                 <div class="container-xxl" id="programContainer">
                     <h1 class="fw-bold text-secondary mb-5 pt-5 pb-4 ps-4"id="programTitle">프로그램</h1>
-                    <div class="row" id="programRow"> <!--예시로 3개만 넣었지만 프로그램 목록은 동적으로 결정될 것이다.-->
+                    <div class="row" id="programRow"> <!--예시로 3개만 넣었지만 프로그램 목록은 동적으로 결정될 것이다.--> <!--나는 설명 보기 버튼을 눌렀을 때 표시될 요소의 아이디를 같게 지정하여 동시에 표시되도록 하였다. 하지만 이는 html규약 위반이며 예상치 못한 동작을 유발할 수 있다고 한다. 그럴 경우 해당 요소들을 클래스로 묶고 자바스크립트 등을 이용해 제어해야 한다고 한다.-->
                         <div class="col-md-4 pb-3">
                             <div class="card" style="width: 100%">
                                 <img src="../img/programimg/L_2231.png" class="card-img-top" alt="..." height="278">
                                 <div class="card-body">
                                     <h5 class="card-title">[갑사] 당일 템플스테이(단체 10명 이상 하루 체험)</h5>
                                     <p>
-                                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <a class="btn btn-primary" data-bs-toggle="collapse" href=".btnDisplay" role="button" aria-expanded="false" aria-controls="collapseExample">
                                             설명 보기
                                         </a>
                                         <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </p>
-                                    <div class="collapse" id="collapseExample">
+                                    <div class="collapse btnDisplay">
                                         <div class="card card-body">
                                             학교, 기업, 동호화, 모임 등 단체에서 진행하는 문화행사 일정의 일환으로 10명
 
@@ -127,8 +127,10 @@
 
                                             * 10인 이상시에만 진행합니다.
 
-                                            * 원하는 프로그램이 있으면 맞춤형으로 진행 가능 합니다.                                 </div>
-                                    </div>                                </div>
+                                            * 원하는 프로그램이 있으면 맞춤형으로 진행 가능 합니다.
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4 pb-3">
@@ -137,12 +139,12 @@
                                 <div class="card-body">
                                     <h5 class="card-title">[갑사] [2022 문화가있는날] 템플스테이</h5>
                                     <p>
-                                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <a class="btn btn-primary" data-bs-toggle="collapse" href=".btnDisplay" role="button" aria-expanded="false" aria-controls="collapseExample">
                                             설명 보기
                                         </a>
                                         <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </p>
-                                    <div class="collapse" id="collapseExample">
+                                    <div class="collapse btnDisplay">
                                         <div class="card card-body">
                                             학교, 기업, 동호화, 모임 등 단체에서 진행하는 문화행사 일정의 일환으로 10명
 
@@ -154,7 +156,8 @@
 
                                             * 10인 이상시에만 진행합니다.
 
-                                            * 원하는 프로그램이 있으면 맞춤형으로 진행 가능 합니다.                                        </div>
+                                            * 원하는 프로그램이 있으면 맞춤형으로 진행 가능 합니다.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -165,12 +168,12 @@
                                 <div class="card-body">
                                     <h5 class="card-title">[갑사] 주말 휴일 템플스테이</h5>
                                     <p>
-                                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <a class="btn btn-primary" data-bs-toggle="collapse" href=".btnDisplay" role="button" aria-expanded="false" aria-controls="collapseExample">
                                             설명 보기
                                         </a>
                                         <a href="#" class="btn btn-primary">Go somewhere</a>
                                     </p>
-                                    <div class="collapse" id="collapseExample">
+                                    <div class="collapse btnDisplay">
                                         <div class="card card-body">
                                             학교, 기업, 동호화, 모임 등 단체에서 진행하는 문화행사 일정의 일환으로 10명
 
@@ -182,8 +185,10 @@
 
                                             * 10인 이상시에만 진행합니다.
 
-                                            * 원하는 프로그램이 있으면 맞춤형으로 진행 가능 합니다.                                        </div>
-                                    </div>                                </div>
+                                            * 원하는 프로그램이 있으면 맞춤형으로 진행 가능 합니다.
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div><!--programRow-->
